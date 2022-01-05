@@ -4,6 +4,7 @@ let start = document.querySelector('#start');
 start.addEventListener("click",()=>{
     let firstPatApp = document.querySelector('#firstPatApp');
     firstPatApp.style.display = "block";
+    start.style.display = "none";
 })
 
 //App

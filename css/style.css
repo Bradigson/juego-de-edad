@@ -171,3 +171,16 @@ form{
         transform:scale(1.07);
     }
 }
+
+
+@media screen and (min-width:1026px){
+
+    ::-webkit-scrollbar{
+        width:8px;
+        background:#17202A;
+    }
+    ::-webkit-scrollbar-thumb{
+        border-radius:20rem;
+        background:#D4AC0D;
+    }
+}
